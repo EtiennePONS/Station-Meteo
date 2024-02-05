@@ -33,6 +33,7 @@ search.addEventListener("click", () => {
       } else {
         cityHide.textContent = city;
         container.style.height = "555px";
+        cityHide.classList.add("active");
         container.classList.add("active");
         weatherBox.classList.add("active");
         weatherDetails.classList.add("active");

@@ -77,13 +77,15 @@ body {
 
 .weather-box,
 .weather-details,
-.not-found {
+.not-found,
+.city-hide {
   overflow: hidden;
   visibility: hidden;
 }
 .weather-box.active,
 .weather-details.active,
-.not-found.active {
+.not-found.active,
+.city-hide.active {
   visibility: visible;
 }
 .weather-box .box,
